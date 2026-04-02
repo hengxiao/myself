@@ -7,16 +7,15 @@
   <meta name="description" content="Heng Xiao — AI Engineer specializing in agentic AI, LLM/RAG pipelines, and GenAI product development." />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 </head>
 <body>
 
 <!-- Navigation -->
 <nav>
   <div class="nav-inner">
-    <span class="nav-logo">HX</span>
+    <a href="#hero" class="nav-logo">HX</a>
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#education">Education</a></li>
@@ -26,28 +25,268 @@
 </nav>
 
 <!-- Hero -->
-<div id="hero">
+<section id="hero">
   <div class="hero-inner">
-    <p class="hero-eyebrow">AI Engineer &middot; Sunnyvale, CA</p>
-    <h1 class="hero-name">Heng Xiao</h1>
-    <p class="hero-title">
-      Sr Staff at <span>Synopsys</span> &mdash; building agentic AI, LLM pipelines &amp; GenAI platforms
-    </p>
+    <span class="hero-badge">AI Engineer &middot; Sunnyvale, CA</span>
+    <h1 class="hero-name">Heng <span>Xiao</span></h1>
+    <p class="hero-title">Sr Staff at Synopsys &mdash; Agentic AI &bull; LLM &bull; GenAI Platforms</p>
     <p class="hero-summary">
       AI Engineer with 10+ years in software, specializing in agentic AI systems, LLM/RAG pipelines,
-      and GenAI product development. I architect multi-agent frameworks, Copilot products, and AI
-      infrastructure at scale — progressing from Software Engineer to Sr Staff at Synopsys over 7 years.
+      and GenAI product development. I architect multi-agent frameworks, Copilot products, and
+      AI infrastructure at scale.
     </p>
     <div class="hero-links">
-      <a href="mailto:hengxiao@hengxiao.net" class="btn btn-primary">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-        Get in touch
+      <a href="mailto:hengxiao@hengxiao.net" class="btn btn-yellow">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Get in Touch
       </a>
-      <a href="https://www.linkedin.com/in/hengxiao/" target="_blank" rel="noopener" class="btn btn-ghost">
+      <a href="resume.pdf" download="Heng_Xiao_Resume.pdf" class="btn btn-white">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+      <a href="https://www.linkedin.com/in/hengxiao/" target="_blank" rel="noopener" class="btn btn-white">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
         LinkedIn
       </a>
-      <a href="https://github.com/hengxiao" target="_blank" rel="noopener" class="btn btn-ghost">
+      <a href="https://github.com/hengxiao" target="_blank" rel="noopener" class="btn btn-white">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<div class="section-wrap gray" id="experience">
+  <div class="container">
+    <span class="section-eyebrow">Career</span>
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+
+      <div class="job-card">
+        <div class="job-card-header">
+          <div class="job-card-stripe"></div>
+          <div class="job-card-body">
+            <div class="job-top">
+              <div class="job-title-row">
+                <span class="job-title">AI Engineer, Sr Staff</span>
+                <span class="job-company">Synopsys Inc</span>
+              </div>
+              <span class="job-date">Dec 2023 – Present &middot; Sunnyvale, CA</span>
+            </div>
+            <p class="job-tagline">Tech lead of GenAI and Agentic App teams, supporting Synopsys products and internal agentic-enabled systems.</p>
+            <ul class="job-bullets">
+              <li><strong>Agentic AI &amp; Platforms:</strong> Architected agentic AI and open agent frameworks used across GenAI products; designed flow-based agent orchestration and LLM-based agent systems; developed agentic-enabled development scheme and platform.</li>
+              <li><strong>AI Studio &amp; EDA:</strong> Contributed to the AI Studio platform (frontend, backend, authorization, configs, workspace), serving 1000+ employees across sales, HR, and marketing; built components and addons for EDA workflows; developed cybersecurity AI and integration tooling.</li>
+              <li><strong>RAG &amp; Content:</strong> Built content processors and document conversion pipelines for RAG; implemented summarization and content test suites; built data pipelines for AI product knowledge.</li>
+              <li><strong>SCS &amp; Infrastructure:</strong> Contributed to model on-prem deployment and tooling; integrated MCP, tool socket, and shell bridge for AI agents; built enterprise GenAI toolkit and observability platform.</li>
+              <li><strong>Evaluation &amp; Datasets:</strong> Curated datasets and evaluation frameworks for AI models; built automated data generation pipelines.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <div class="job-card-header">
+          <div class="job-card-stripe"></div>
+          <div class="job-card-body">
+            <div class="job-top">
+              <div class="job-title-row">
+                <span class="job-title">Machine Learning Engineer, Staff</span>
+                <span class="job-company">Synopsys Inc</span>
+              </div>
+              <span class="job-date">Jan 2023 – Dec 2023 &middot; Sunnyvale, CA</span>
+            </div>
+            <p class="job-tagline">Tech lead, architect, and engineer of the Synopsys AI platform.</p>
+            <ul class="job-bullets">
+              <li>Designed and implemented the deployment model of the AI platform for customer sites.</li>
+              <li>Coordinated the integration of the AI platform with various Synopsys products.</li>
+              <li>Designed, planned, and implemented the observability platform for the on-site SRE system.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <div class="job-card-header">
+          <div class="job-card-stripe"></div>
+          <div class="job-card-body">
+            <div class="job-top">
+              <div class="job-title-row">
+                <span class="job-title">Machine Learning Engineer, Sr II</span>
+                <span class="job-company">Synopsys Inc</span>
+              </div>
+              <span class="job-date">Mar 2022 – Feb 2023 &middot; Mountain View, CA</span>
+            </div>
+            <p class="job-tagline">Tech lead of the AI Platform team, enabling ML features across Synopsys products.</p>
+            <ul class="job-bullets">
+              <li>Provided packages, tools, and technologies to accelerate ML algorithm development.</li>
+              <li>Built platforms for the Synopsys community to experiment with and prototype ML services.</li>
+              <li>Packaged the Synopsys ML platform for cloud and customer-site deployment via CI/CD pipeline.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <div class="job-card-header">
+          <div class="job-card-stripe"></div>
+          <div class="job-card-body">
+            <div class="job-top">
+              <div class="job-title-row">
+                <span class="job-title">Software Engineer, Sr II</span>
+                <span class="job-company">Synopsys Inc</span>
+              </div>
+              <span class="job-date">Apr 2019 – Mar 2022 &middot; Mountain View, CA</span>
+            </div>
+            <p class="job-tagline">Supported machine learning infrastructure research and development.</p>
+            <ul class="job-bullets">
+              <li>Developed and improved datastore solutions for ML-related data across Synopsys products.</li>
+              <li>Built a system to deploy trained models to customers with ease and security.</li>
+              <li>Created infrastructure to support Synopsys products' on-site training features.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <div class="job-card-header">
+          <div class="job-card-stripe cadence"></div>
+          <div class="job-card-body">
+            <div class="job-top">
+              <div class="job-title-row">
+                <span class="job-title">Lead Software Engineer</span>
+                <span class="job-company cadence-co">Cadence Design Systems</span>
+              </div>
+              <span class="job-date">May 2015 – Apr 2019 &middot; SF Bay Area</span>
+            </div>
+            <p class="job-tagline">Led GUI development for Conformal Tools, a flagship EDA product.</p>
+            <ul class="job-bullets">
+              <li>Applied modern web concepts to GUI design, achieving 10x improvement in usability for Conformal Tools.</li>
+              <li>Built a new generation GUI in Qt C++, addressing core usability requirements for EDA workflows.</li>
+              <li>Designed and implemented result visualization systems and user flows, making the debugging process 10x more user-friendly.</li>
+              <li>Maintained and improved the GUI of Conformal Tools using Tcl/Tk and C/C++.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Skills -->
+<div class="section-wrap" id="skills">
+  <div class="container">
+    <span class="section-eyebrow">Expertise</span>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-category">AI / ML</div>
+        <div class="skill-tags">
+          <span class="tag">Agentic AI</span>
+          <span class="tag">Multi-agent systems</span>
+          <span class="tag">LLM</span>
+          <span class="tag">RAG</span>
+          <span class="tag">LangChain</span>
+          <span class="tag">ML pipelines</span>
+          <span class="tag">Embeddings</span>
+          <span class="tag">Eval frameworks</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-category">Languages</div>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">C/C++</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Tcl/Tk</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-category">Platform &amp; Cloud</div>
+        <div class="skill-tags">
+          <span class="tag">Kubernetes</span>
+          <span class="tag">Docker</span>
+          <span class="tag">AWS</span>
+          <span class="tag">GCP</span>
+          <span class="tag">Azure</span>
+          <span class="tag">Linux</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-category">Tools</div>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">MCP</span>
+          <span class="tag">OpenTelemetry</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">Qt C++</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-category">Human Languages</div>
+        <div class="skill-tags">
+          <span class="tag">English</span>
+          <span class="tag">Chinese (Native)</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Education -->
+<div class="section-wrap blue" id="education">
+  <div class="container">
+    <span class="section-eyebrow">Background</span>
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+
+      <div class="edu-card">
+        <div class="edu-degree">M.S., Civil and Environmental Engineering</div>
+        <div class="edu-school">Stanford University</div>
+        <div class="edu-meta">2012 – 2014</div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-degree">B.S., Environmental Science</div>
+        <div class="edu-school">Rutgers University</div>
+        <div class="edu-meta">2010 – 2012 &middot; Cum Laude, Dean's List</div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-degree">B.S., Environmental Science</div>
+        <div class="edu-school">South China University of Technology</div>
+        <div class="edu-meta">2007 – 2012</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="section-wrap" id="contact">
+  <div class="container contact-section">
+    <span class="section-eyebrow">Say Hello</span>
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-sub">Open to interesting conversations, collaborations, and new opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:hengxiao@hengxiao.net" class="btn btn-red">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        hengxiao@hengxiao.net
+      </a>
+      <a href="https://www.linkedin.com/in/hengxiao/" target="_blank" rel="noopener" class="btn btn-yellow">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/hengxiao" target="_blank" rel="noopener" class="btn btn-yellow">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
         GitHub
       </a>
@@ -55,213 +294,8 @@
   </div>
 </div>
 
-<hr class="divider" />
-
-<!-- Experience -->
-<section id="experience">
-  <p class="section-label">Career</p>
-  <h2 class="section-title">Experience</h2>
-  <div class="timeline">
-
-    <div class="timeline-item">
-      <div class="job-header">
-        <div class="job-title">AI Engineer, Sr Staff &middot; <span class="job-company">Synopsys Inc</span></div>
-        <div class="job-meta">Dec 2023 – Present &middot; Sunnyvale, CA</div>
-      </div>
-      <p class="job-tagline">Tech lead of GenAI and Agentic App teams, supporting Synopsys products and internal agentic-enabled systems.</p>
-      <ul class="job-bullets">
-        <li><strong>Agentic AI &amp; Platforms:</strong> Architected agentic AI and open agent frameworks used across GenAI products; designed flow-based agent orchestration and LLM-based agent systems; developed agentic-enabled development scheme and platform.</li>
-        <li><strong>AI Studio &amp; EDA:</strong> Contributed to the AI Studio platform (frontend, backend, authorization, configs, workspace), serving 1000+ employees across sales, HR, and marketing; built components and addons for EDA workflows; developed cybersecurity AI and integration tooling.</li>
-        <li><strong>RAG &amp; Content:</strong> Built content processors and document conversion pipelines for RAG; implemented summarization and content test suites; built data pipelines for AI product knowledge.</li>
-        <li><strong>SCS &amp; Infrastructure:</strong> Contributed to model on-prem deployment and tooling; integrated MCP, tool socket, and shell bridge for AI agents; built enterprise GenAI toolkit and observability platform.</li>
-        <li><strong>Evaluation &amp; Datasets:</strong> Curated datasets and evaluation frameworks for AI models; built automated data generation pipelines.</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <div class="job-header">
-        <div class="job-title">Machine Learning Engineer, Staff &middot; <span class="job-company">Synopsys Inc</span></div>
-        <div class="job-meta">Jan 2023 – Dec 2023 &middot; Sunnyvale, CA</div>
-      </div>
-      <p class="job-tagline">Tech lead, architect, and engineer of the Synopsys AI platform.</p>
-      <ul class="job-bullets">
-        <li>Designed and implemented the deployment model of the AI platform for customer sites.</li>
-        <li>Coordinated the integration of the AI platform with various Synopsys products.</li>
-        <li>Designed, planned, and implemented the observability platform for the on-site SRE system.</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <div class="job-header">
-        <div class="job-title">Machine Learning Engineer, Sr II &middot; <span class="job-company">Synopsys Inc</span></div>
-        <div class="job-meta">Mar 2022 – Feb 2023 &middot; Mountain View, CA</div>
-      </div>
-      <p class="job-tagline">Tech lead of the AI Platform team, enabling ML features across Synopsys products.</p>
-      <ul class="job-bullets">
-        <li>Provided packages, tools, and technologies to accelerate ML algorithm development.</li>
-        <li>Built platforms for the Synopsys community to experiment with and prototype ML services.</li>
-        <li>Packaged the Synopsys ML platform for cloud and customer-site deployment via CI/CD pipeline.</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <div class="job-header">
-        <div class="job-title">Software Engineer, Sr II &middot; <span class="job-company">Synopsys Inc</span></div>
-        <div class="job-meta">Apr 2019 – Mar 2022 &middot; Mountain View, CA</div>
-      </div>
-      <p class="job-tagline">Supported machine learning infrastructure research and development.</p>
-      <ul class="job-bullets">
-        <li>Developed and improved datastore solutions for ML-related data across Synopsys products.</li>
-        <li>Built a system to deploy trained models to customers with ease and security.</li>
-        <li>Created infrastructure to support Synopsys products' on-site training features.</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <div class="job-header">
-        <div class="job-title">Lead Software Engineer &middot; <span class="job-company">Cadence Design Systems</span></div>
-        <div class="job-meta">May 2015 – Apr 2019 &middot; San Francisco Bay Area</div>
-      </div>
-      <p class="job-tagline">Led GUI development for Conformal Tools, a flagship EDA product.</p>
-      <ul class="job-bullets">
-        <li>Applied modern web concepts to GUI design, achieving 10x improvement in usability for Conformal Tools.</li>
-        <li>Built a new generation GUI in Qt C++, addressing core usability requirements for EDA workflows.</li>
-        <li>Designed and implemented result visualization systems and user flows, making the debugging process 10x more user-friendly.</li>
-        <li>Maintained and improved the GUI of Conformal Tools using Tcl/Tk and C/C++.</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-<hr class="divider" />
-
-<!-- Skills -->
-<section id="skills">
-  <p class="section-label">Expertise</p>
-  <h2 class="section-title">Skills</h2>
-  <div class="skills-grid">
-
-    <div class="skill-card">
-      <div class="skill-category">AI / ML</div>
-      <div class="skill-tags">
-        <span class="tag">Agentic AI</span>
-        <span class="tag">Multi-agent systems</span>
-        <span class="tag">LLM</span>
-        <span class="tag">RAG</span>
-        <span class="tag">LangChain</span>
-        <span class="tag">ML pipelines</span>
-        <span class="tag">Embeddings</span>
-        <span class="tag">Eval frameworks</span>
-      </div>
-    </div>
-
-    <div class="skill-card">
-      <div class="skill-category">Languages</div>
-      <div class="skill-tags">
-        <span class="tag">Python</span>
-        <span class="tag">C/C++</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">Tcl/Tk</span>
-        <span class="tag">SQL</span>
-      </div>
-    </div>
-
-    <div class="skill-card">
-      <div class="skill-category">Platform &amp; Cloud</div>
-      <div class="skill-tags">
-        <span class="tag">Kubernetes</span>
-        <span class="tag">Docker</span>
-        <span class="tag">AWS</span>
-        <span class="tag">GCP</span>
-        <span class="tag">Azure</span>
-        <span class="tag">Linux</span>
-      </div>
-    </div>
-
-    <div class="skill-card">
-      <div class="skill-category">Tools</div>
-      <div class="skill-tags">
-        <span class="tag">Git</span>
-        <span class="tag">MCP</span>
-        <span class="tag">OpenTelemetry</span>
-        <span class="tag">CI/CD</span>
-        <span class="tag">Qt C++</span>
-      </div>
-    </div>
-
-    <div class="skill-card">
-      <div class="skill-category">Languages (Human)</div>
-      <div class="skill-tags">
-        <span class="tag">English</span>
-        <span class="tag">Chinese (Native)</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<hr class="divider" />
-
-<!-- Education -->
-<section id="education">
-  <p class="section-label">Background</p>
-  <h2 class="section-title">Education</h2>
-  <div class="edu-grid">
-
-    <div class="edu-card">
-      <div>
-        <div class="edu-degree">M.S., Civil and Environmental Engineering</div>
-        <div class="edu-school">Stanford University</div>
-      </div>
-      <div class="edu-year">2012 – 2014</div>
-    </div>
-
-    <div class="edu-card">
-      <div>
-        <div class="edu-degree">B.S., Environmental Science</div>
-        <div class="edu-school">Rutgers University</div>
-        <div class="edu-note">Cum Laude, Dean's List</div>
-      </div>
-      <div class="edu-year">2010 – 2012</div>
-    </div>
-
-    <div class="edu-card">
-      <div>
-        <div class="edu-degree">B.S., Environmental Science</div>
-        <div class="edu-school">South China University of Technology</div>
-      </div>
-      <div class="edu-year">2007 – 2012</div>
-    </div>
-
-  </div>
-</section>
-
-<hr class="divider" />
-
-<!-- Contact -->
-<section id="contact">
-  <p class="section-label">Say Hello</p>
-  <h2 class="section-title">Get In Touch</h2>
-  <p class="contact-sub">Open to interesting conversations, collaborations, and new opportunities.</p>
-  <div class="contact-links">
-    <a href="mailto:hengxiao@hengxiao.net" class="btn btn-primary">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-      hengxiao@hengxiao.net
-    </a>
-    <a href="https://www.linkedin.com/in/hengxiao/" target="_blank" rel="noopener" class="btn btn-ghost">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
-      linkedin.com/in/hengxiao
-    </a>
-    <a href="https://github.com/hengxiao" target="_blank" rel="noopener" class="btn btn-ghost">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-      github.com/hengxiao
-    </a>
-  </div>
-</section>
-
 <footer>
-  <p>Heng Xiao &copy; 2026 &middot; Built with HTML &amp; CSS</p>
+  <p>Heng Xiao &copy; 2026 &middot; <a href="mailto:hengxiao@hengxiao.net">hengxiao@hengxiao.net</a></p>
 </footer>
 
 </body>
