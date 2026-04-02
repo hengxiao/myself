@@ -18,6 +18,18 @@
   --radius: 16px;
   --radius-sm: 8px;
   --shadow: 0 4px 16px rgba(0,0,0,0.12);
+
+  /* Brand colors */
+  --synopsys: #6B2D8B;
+  --synopsys-light: #f3eaf8;
+  --cadence: #0062B3;
+  --cadence-light: #e6f0fa;
+  --stanford: #8C1515;
+  --stanford-light: #f5e8e8;
+  --rutgers: #CC0033;
+  --rutgers-light: #fce8ed;
+  --scut: #C8102E;
+  --scut-light: #fce8eb;
   --shadow-hover: 0 8px 28px rgba(0,0,0,0.18);
 }
 
@@ -261,7 +273,6 @@ nav {
   margin-bottom: 0.75rem;
 }
 
-.section-wrap.blue .section-eyebrow,
 .section-wrap.red .section-eyebrow {
   background: rgba(255,255,255,0.2);
   color: var(--white);
@@ -276,7 +287,6 @@ nav {
   line-height: 1.1;
 }
 
-.section-wrap.blue .section-title,
 .section-wrap.red .section-title {
   color: var(--white);
 }
@@ -313,14 +323,12 @@ nav {
 
 .job-card-stripe {
   width: 8px;
-  background: var(--red);
   flex-shrink: 0;
   border-radius: 0;
 }
 
-.job-card-stripe.cadence {
-  background: var(--blue);
-}
+.job-card-stripe.synopsys { background: var(--synopsys); }
+.job-card-stripe.cadence  { background: var(--cadence); }
 
 .job-card-body {
   padding: 1.5rem;
@@ -350,12 +358,10 @@ nav {
 .job-company {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--red);
 }
 
-.job-card-body .cadence-co {
-  color: var(--blue);
-}
+.job-company.synopsys-co { color: var(--synopsys); }
+.job-company.cadence-co  { color: var(--cadence); }
 
 .job-date {
   font-size: 0.75rem;
@@ -478,35 +484,43 @@ nav {
 }
 
 .edu-card {
-  background: rgba(255,255,255,0.12);
-  border: 2px solid rgba(255,255,255,0.2);
+  background: var(--white);
   border-radius: var(--radius);
   padding: 1.5rem;
-  transition: background 0.2s, transform 0.2s;
+  box-shadow: var(--shadow);
+  border-top: 6px solid var(--mid-gray);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .edu-card:hover {
-  background: rgba(255,255,255,0.2);
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
 }
+
+.edu-card.stanford { border-top-color: var(--stanford); }
+.edu-card.rutgers  { border-top-color: var(--rutgers); }
+.edu-card.scut     { border-top-color: var(--scut); }
 
 .edu-degree {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--white);
+  color: var(--text);
   margin-bottom: 0.25rem;
 }
 
 .edu-school {
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: var(--yellow);
+  font-size: 0.9rem;
+  font-weight: 800;
   margin-bottom: 0.25rem;
 }
 
+.edu-card.stanford .edu-school { color: var(--stanford); }
+.edu-card.rutgers  .edu-school { color: var(--rutgers); }
+.edu-card.scut     .edu-school { color: var(--scut); }
+
 .edu-meta {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.65);
+  color: var(--dark-gray);
   font-weight: 600;
 }
 
